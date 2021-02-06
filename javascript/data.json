@@ -1,0 +1,225 @@
+{
+    "pasta": [
+        {
+            "name": "Pasta Napoli",
+            "price": "8,00€",
+            "ingredients": "mit Tomatensauce"
+        },
+        {
+            "name": "Pasta Bolognese",
+            "price": "8,00€",
+            "ingredients": "mit Fleischsauce und Parmesan"
+        },
+        {
+            "name": "Pasta Cabonara",
+            "price": "8,00€",
+            "ingredients": "mit Ei,Speck und Sahne"
+        },
+        {
+            "name": "Pasta Contadina",
+            "price": "8,00€",
+            "ingredients": "mit Putenschinken, Champignons, Erbsen und Tomaten-Sahnesauce"
+        },
+        {
+            "name": "Pasta Diavolo",
+            "price": "8,00€",
+            "ingredients": "mit Oliveöl, Knoblauch, Basilikum und Peperoni"
+        },
+        {
+            "name": "Tortellini alla Panna",
+            "price": "8,00€",
+            "ingredients": "mit Putenschinke, Sahnesauce und Parmesan"
+        },
+        {
+            "name": "Pasta Frutti di Mare",
+            "price": "8,50€",
+            "ingredients": "mit Meeresfrüchten, Tomatensauce und Knoblauch"
+        },
+        {
+            "name": "Pasta Salmone",
+            "price": "8,50€",
+            "ingredients": "mit Lachs, Sahne und Petersilie"
+        },
+        {
+            "name": "Pastsa Gorgonzola",
+            "price": "8,50€",
+            "ingredients": "mit Gorgonzola-Sahnesauce"
+        }
+    ],
+    "pizza": [
+        {
+            "name": "Pizza Margherita",
+            "price": "5,50€",
+            "ingredients": ""
+        },
+        {
+            "name": "Pizza Salami",
+            "price": "6,00€",
+            "ingredients": "mit Rindersalami"
+        },
+        {
+            "name": "Pizza Schinken(Putenschiken)",
+            "price": "6,00€",
+            "ingredients": "mit Putenschinken"
+        },
+        {
+            "name": "Pizza Funghi",
+            "price": "6,00€",
+            "ingredients": "mit Champignons"
+        },
+        {
+            "name": "Pizza Diavolo",
+            "price": "6,00€",
+            "ingredients": "mit Peperoniwurst und Zwiebeln"
+        },
+        {
+            "name": "Pizza Bolognese",
+            "price": "7,00€",
+            "ingredients": "mit Zwiebeln und Knoblauch"
+        },
+        {
+            "name": "Pizza Vicktoria",
+            "price": "7,00€",
+            "ingredients": "mit Rindersalami und Putenschinken"
+        },
+        {
+            "name": "Pizza Prima",
+            "price": "7,00€",
+            "ingredients": "mit Punteschinken und Champignons"
+        },
+        {
+            "name": "Pizza Tonno",
+            "price": "7,00€",
+            "ingredients": "mit Thunfisch und Zwiebeln"
+        },
+        {
+            "name": "Pizza Capri",
+            "price": "7,00€",
+            "ingredients": "mit Thunfisch,Zwiebeln,Knoblauch und Champignons"
+        },
+        {
+            "name": "Pizza Pistatory",
+            "price": "7,00€",
+            "ingredients": "mit Rindersalami, Putenschinken und Champignons"
+        },
+        {
+            "name": "Pizza Hawai",
+            "price": "7,00€",
+            "ingredients": "mite Puteschinken und Ananas"
+        },
+        {
+            "name": "Pizza Vier Jahreszeiten",
+            "price": "7,00€",
+            "ingredients": "mit Rindersalami,Putenschinken,Champignons und Paprika"
+        },
+        {
+            "name": "Calzone",
+            "price": "7,00€",
+            "ingredients": "gefüllt mit Rindersalami,Putenschinken,Champignong und Paprika"
+        }
+    ],
+    "burger": [
+        {
+            "name": "Hamburger",
+            "price": "3,50€",
+            "ingredients": ""
+        },
+        {
+            "name": "Cheeseburger",
+            "price": "3,50€",
+            "ingredients": ""
+        },
+        {
+            "name": "Hamburger Royal",
+            "price": "4,50€",
+            "ingredients": "mit Doppel-Patty"
+        },
+        {
+            "name": "Chicken Parma",
+            "price": "4,50€",
+            "ingredients": ""
+        },
+        {
+            "name": "Hamburger Menü",
+            "price": "6,50€",
+            "ingredients": "mit Pommes frites, Ketchup und einer Dose Coca Cola"
+        },
+        {
+            "name": "Cheeseburger Menü",
+            "price": "6,50€",
+            "ingredients": "mit Pommes frites,Ketchup und einer Dose Coca Cola"
+        }
+    ],
+    "drinks": [
+        {
+            "name": "Coca Cola 1,0l",
+            "price": "2,50",
+            "ingredients": "",
+            "informations": "Enthält Koffein (10,0 mg/100 ml)inkl. Pfand (0,15 €)2,50 €/l1,000l"
+        },
+        {
+            "name": "Coca Cola light 1,0l",
+            "price": "2,50",
+            "ingredients": "",
+            "informations": "Enthält Koffein (10,0 mg/100 ml)inkl. Pfand (0,15 €)2,50 €/l1,000l"
+        },
+        {
+            "name": "Mezzo-Mix 1,0l",
+            "price": "2,50",
+            "ingredients": "",
+            "informations": "Enthält Koffein (10,0 mg/100 ml)inkl. Pfand (0,15 €)2,50 €/l1,000l"
+        },
+        {
+            "name": "Fanta 1,0l",
+            "price": "2,50",
+            "ingredients": "",
+            "informations": "inkl. Pfand (0,15 €)2,50 €/l1,000l"
+        },
+        {
+            "name": "Sprite 1,0l",
+            "price": "2,50",
+            "ingredients": "",
+            "informations": "inkl. Pfand (0,15 €)2,50 €/l1,000l"
+        },
+        {
+            "name": "Orangensaft 1,0l",
+            "price": "3,50",
+            "ingredients": "",
+            "informations": "3,50 €/l1,000l"
+        },
+        {
+            "name": "Apflesaft 1,0l",
+            "price": "3,50",
+            "ingredients": "",
+            "informations": "3,50 €/l1,000l"
+        },
+        {
+            "name": "Fanta 1,0l",
+            "price": "2,50",
+            "ingredients": "",
+            "informations": "inkl. Pfand (0,15 €)2,50 €/l1,000l"
+        }
+    ],
+    "templates": [
+        {
+            "name": "Pizza",
+            "img": "../img/pizza.jpg",
+            "discription": "Alle Pizzen werden mit Tomatensauce und Käse zubereitet."
+        },
+        {
+            "name": "Pasta",
+            "img": "../img/pasta.jpg",
+            "discription": "Alle Nudelgerichte werden mit einer Nudelsorte nach Wahl zubereitet."
+        },
+        {
+            "name": "Drinks",
+            "img": "../img/drinks.jpg",
+            "discription": ""
+        },
+        {
+            "name" : "Burger",
+            "img" : "../img/burger.jpg",
+            "discription" : ""
+        }
+    ]
+}
