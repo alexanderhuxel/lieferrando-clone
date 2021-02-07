@@ -41,7 +41,7 @@
             "ingredients": "mit Lachs, Sahne und Petersilie"
         },
         {
-            "name": "Pastsa Gorgonzola",
+            "name": "Pasta Gorgonzola",
             "price": "8,50€",
             "ingredients": "mit Gorgonzola-Sahnesauce"
         }
@@ -202,24 +202,24 @@
     ],
     "templates": [
         {
-            "name": "Pizza",
-            "img": "../img/pizza.jpg",
-            "discription": "Alle Pizzen werden mit Tomatensauce und Käse zubereitet."
-        },
-        {
             "name": "Pasta",
             "img": "../img/pasta.jpg",
             "discription": "Alle Nudelgerichte werden mit einer Nudelsorte nach Wahl zubereitet."
         },
         {
-            "name": "Drinks",
-            "img": "../img/drinks.jpg",
+            "name": "Pizza",
+            "img": "../img/pizza.jpg",
+            "discription": "Alle Pizzen werden mit Tomatensauce und Käse zubereitet."
+        },
+        {
+            "name": "Burger",
+            "img": "../img/burger.jpg",
             "discription": ""
         },
         {
-            "name" : "Burger",
-            "img" : "../img/burger.jpg",
-            "discription" : ""
+            "name": "Drinks",
+            "img": "../img/drinks.jpg",
+            "discription": ""
         }
     ]
 }
