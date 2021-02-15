@@ -12,10 +12,10 @@
     <link rel="icon" href="../img/delivery-truck.png" type="image" />
 </head>
 
-<body>
+<body onload="init()">
     <header>
         <div id="header">
-            <h2>Bellheimer Wald , Lustadt</h2>
+            <h2 id="h1">Bellheimer Wald , Lustadt</h2>
         </div>
     </header>
     <main>
@@ -36,30 +36,24 @@
                     class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
                 <p> (1.4k Bewertungen)</p>
             </span>
-            <p id="restaurant__discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-                accusantium iste alias adipisci minus possimus dolor odit ullam illum. In assumenda sapiente fugiat
-                accusantium quaerat excepturi alias id, temporibus animi.</p>
+            <p id="restaurant__discription">Bei diesem Restaurant kannst Du Stempel sammeln. Stelle beim Bestellabschluss bitte sicher, dass Du Dich für unseren Newsletter angemeldet hast, um Deine Stempel per E-Mail zu erhalten.
+                Wir freuen uns auf Ihre Bestellung und wünschen einen guten Appetit!</p>
 
         </div>
-        <div id="searchbar"></div>
+        <div id="searchbar">
+            <span id="bar">
+            </span>
+        </div>
         <div id="foodbox"></div>
 
 
         <div id="basket">
-            <span>
-                <p id="basket-logo-media"><i class="fas fa-shopping-cart"></i></p>
-                <p>1</p>
-            </span>
-            <span>
-                <p id="basket-summary-media">Warenkorb (8,00€)</p>
-            </span>
+         
         </div>
     </main>
 
 
 </body>
-<script>
-    init();    
-</script>
+
 
 </html>

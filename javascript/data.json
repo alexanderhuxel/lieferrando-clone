@@ -1,6 +1,12 @@
 {
     "pasta": [
         {
+            "name": "Pasta",
+            "img": "../img/pasta.jpg",
+            "category" : "template",
+            "discription": "Alle Nudelgerichte werden mit einer Nudelsorte nach Wahl zubereitet."
+        },
+        {
             "name": "Pasta Napoli",
             "price": "8,00€",
             "ingredients": "mit Tomatensauce"
@@ -47,6 +53,12 @@
         }
     ],
     "pizza": [
+        {
+            "name": "Pizza",
+            "img": "../img/pizza.jpg",
+            "category" : "template",
+            "discription": "Alle Pizzen werden mit Tomatensauce und Käse zubereitet."
+        },
         {
             "name": "Pizza Margherita",
             "price": "5,50€",
@@ -120,6 +132,12 @@
     ],
     "burger": [
         {
+            "name": "Burger",
+            "category" : "template",
+            "img": "../img/burger.jpg",
+            "discription": ""
+        },
+        {
             "name": "Hamburger",
             "price": "3,50€",
             "ingredients": ""
@@ -151,6 +169,13 @@
         }
     ],
     "drinks": [
+         
+        {
+            "name": "Drinks",
+            "category" : "template",
+            "img": "../img/drinks.jpg",
+            "discription": ""
+        },
         {
             "name": "Coca Cola 1,0l",
             "price": "2,50",
@@ -198,28 +223,6 @@
             "price": "2,50",
             "ingredients": "",
             "informations": "inkl. Pfand (0,15 €)2,50 €/l1,000l"
-        }
-    ],
-    "templates": [
-        {
-            "name": "Pasta",
-            "img": "../img/pasta.jpg",
-            "discription": "Alle Nudelgerichte werden mit einer Nudelsorte nach Wahl zubereitet."
-        },
-        {
-            "name": "Pizza",
-            "img": "../img/pizza.jpg",
-            "discription": "Alle Pizzen werden mit Tomatensauce und Käse zubereitet."
-        },
-        {
-            "name": "Burger",
-            "img": "../img/burger.jpg",
-            "discription": ""
-        },
-        {
-            "name": "Drinks",
-            "img": "../img/drinks.jpg",
-            "discription": ""
         }
     ]
 }

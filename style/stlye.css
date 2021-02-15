@@ -66,6 +66,9 @@ main {
     margin-left: 16px;
     color: #ff8000; }
 
+#restaurant__discriptio {
+  text-align: start !important; }
+
 #headline-restaurant {
   display: flex;
   flex-direction: row;
@@ -80,6 +83,8 @@ main {
       border: 1px solid #d7d7d7;
       padding: 16px;
       margin: 0px; }
+      #headline-restaurant #logo .fas:hover {
+        cursor: pointer; }
 
 #foodbox {
   width: 80%; }
@@ -87,7 +92,27 @@ main {
 #searchbar {
   width: 100%;
   height: 70px;
-  background-color: lightgray; }
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #searchbar #bar {
+    display: flex;
+    flex-shrink: 1;
+    justify-content: center !important;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.2rem;
+    font-weight: 700; }
+    #searchbar #bar a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: black;
+      border: 1px solid transparent; }
+      #searchbar #bar a:hover {
+        color: gray;
+        cursor: pointer; }
 
 .meal {
   border: 1px solid #d7d7d7;
@@ -103,7 +128,7 @@ main {
     justify-content: space-between;
     margin: 16px; }
     .meal .meal__name .name {
-      colo: #0a3847;
+      color: #0a3847;
       font-weight: 700;
       font-size: 1.5em; }
     .meal .meal__name .add__button--cta {
@@ -113,6 +138,8 @@ main {
       padding: 16px;
       color: #00bfff;
       border: 1px solid #d7d7d7; }
+      .meal .meal__name .add__button--cta:hover {
+        cursor: pointer; }
   .meal .meal__discription {
     margin: 16px;
     color: #666;
@@ -186,10 +213,17 @@ main {
   border-bottom: 1px solid #d7d7d7;
   font-weight: 700; }
 
-p:nth-last-child(2) {
-  font-size: 0.8em;
+p {
   margin-left: 8px;
-  margin-right: 8px; }
+  margin-right: 8px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0; }
+  p:nth-last-child(2) {
+    font-size: 0.8em;
+    margin-left: 8px;
+    margin-right: 8px; }
 
 button {
   margin-left: 8px;
@@ -222,10 +256,12 @@ button {
     height: 100px; }
 
   #basket {
+    trasition: all ease-in-out 0ms;
     position: fixed;
-    bottom: 0px;
+    bottom: 10px !important;
     left: 15px;
     right: 15px;
+    top: none;
     width: calc( 100% - 30px );
     height: 50px;
     background-color: #00bfff;
